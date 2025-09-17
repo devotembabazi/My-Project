@@ -1,0 +1,604 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.homepage{
+    min-height: 75vh;
+    background-image: url(image4.jpg); width: 95%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 75px;
+    
+
+}
+
+.navbar ul{
+    background-color: black;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.navbar li{
+    height: 50px;
+    text-decoration: none;
+
+}
+
+.navbar a{
+    height: 100%;
+    color: white;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover{
+    background-color: rgb(243, 242, 242);
+    color: blue;
+    text-decoration: underline; color: rgb(25, 63, 146);
+}
+
+.homepage h1{
+    padding-top: 20px;
+    padding-left: 15px;
+    margin: 35px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.homepage p{
+    margin: 35px;
+    color: white;
+    align-items: center;
+    font-size: 18px;
+    line-height: 25px;
+    
+}
+
+.navbar button{
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+
+}
+
+.navbar button:hover{
+    color: rgb(25, 63, 146);
+    background-color:rgb(169, 169, 177);
+    transform: scale(1.1);
+    border: 1px solid rgb(25, 63, 146);
+}
+
+.about-us{
+    background-color: rgb(11, 11, 78);
+    overflow: hidden;
+    
+}
+
+.container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+    animation: fadeInUp 2s ease;
+    overflow: hidden;
+    
+}
+
+.about h1{
+    color: rgb(199, 60, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    font-size: 35px;
+}
+
+.container img{
+    width: 350px;
+    height: 365px;
+    border-radius: 10px;
+    margin-left: 55px;
+    animation: fadeInRight 2s ease;
+}
+
+.container h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    color: yellow;
+}
+
+.container p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom:20px;
+    margin-right: 30px;
+    
+}
+
+@keyframes fadeInUp{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+
+.programs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.selection{
+     background-color: rgb(11, 11, 78);
+    overflow: hidden;
+
+}
+
+.prog h1{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(199, 60, 79);;
+    
+    
+}
+
+.select h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 25px;
+     color: rgb(199, 60, 79);
+    
+}
+
+.select p{
+    width: 300px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.selector{
+    margin-top: 50px;
+}
+
+.programs .selector h1{
+    margin-top: 55px;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: rgb(199, 60, 79);
+    
+    
+}
+
+.programs .selector p{
+    margin-left: 20px;
+    width: 300px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    color: rgb(250, 250, 250);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.skills h1{
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: rgb(199, 60, 79);
+
+}
+
+.skills p{
+    margin-right: 10px;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.change h1{
+    margin-left: 35px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: rgb(199, 60, 79);
+}
+
+.change p{
+    margin-left: 35px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.fa-circle-user{
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.team-section{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.team-section p{
+    padding-bottom: 15px;
+    margin: 35px;
+    text-align: center;
+}
+
+.team-section h1{
+    padding-top: 55px;
+    padding-bottom: 20px;
+    margin-left: 45px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+}
+
+.team-cards{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+
+}
+
+.team-card{
+    background-color: #060721;
+    border-radius: 50px;
+    box-shadow: 0px 2px 5px rgba(0,0,0, 0.2);
+    margin: 0px 20px;
+    text-align: center;
+    transition: transform 0.6s ease;
+    width: calc(33.33% -20px);
+
+}
+
+.team-card:hover{
+    transform: translateY(-12px);
+}
+
+.team-detail h3{
+    color: #fff;
+    font-size: 30px;
+    margin: 15px 0px;
+
+}
+
+.team-detail p{
+    color: #426385;
+    font-size: 18px;
+}
+
+.support{
+    background-color: #060721;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.support h1{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 25px;
+   
+    
+}
+
+.support p{
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+
+.support .options option{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    background-color: #426385;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 8%;
+    background-color: black;
+    color: white;
+    
+
+}
+
+.container .row{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.row section .col{
+    display: flex;
+    flex-direction: column;  
+}
+
+.row section.left{
+    flex-basis: 35%;
+    min-width: 320px;
+    margin-right: 60px;
+    
+}
+
+.row section.right{
+    flex-basis: 60%;
+    
+
+}
+
+section.left .contactTitle h1{
+    position: relative;
+    font-size: 28px;
+    color: #ddd;
+    display: inline-block;
+    margin-bottom: 25px;
+
+}
+
+section.left .contactTitle h1::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    background-color: #888;
+    top: 120%;
+    left: 0;
+}
+
+section.left .contactTitle h1::after{
+    content: '';
+    position: absolute;
+    width: 25%;
+    height: 3px;
+    background-color: dodgerblue;
+    top: calc(120% - 1px);
+    left: 0;
+}
+
+section.left .contactTitle p{
+    font-size: 17px;
+    color: #ccc;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    padding-bottom: 22px;
+}
+
+section.left .contactInfo{
+    margin-bottom: 16px;
+}
+
+.contactInfo .iconGroup{
+    display: flex;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.iconGroup .icon{
+    width: 45px;
+    height: 45px;
+    border: 2px solid dodgerblue;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+}
+
+.iconGroup .icon i{
+    font-size: 20px;
+    color: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.iconGroup .details  span{
+    display: block;
+    color: #888;
+    font-size: 18px;
+
+}
+
+.iconGroup .details span:nth-child(1){
+    text-transform: uppercase;
+    color: #ccc;
+}
+
+section.left .socialMedia{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 22px 0px 20px;
+}
+
+.socialMedia a{
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    transition: 0.4s;
+
+}
+
+.socialMedia a i{
+    color: #ddd;
+    font-size: 18px;
+    line-height: 35px;
+    border:1px solid transparent;
+    transition-delay: 0.4s;
+
+}
+
+.socialMedia a:hover{
+    transform: translateY(-5px);
+    background-color: #2e2e2e;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+.socialMedia a:hover i{
+    color: dodgerblue;
+}
+
+.row section.right .messageForm{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.row section.right .inputGroup{
+    margin: 18px 0px;
+    position: relative;
+}
+
+.messageForm .halfwidth{
+    flex-basis: 48%;
+}
+
+.messageForm .fullwidth{
+    flex-basis: 100%;
+}
+
+.messageForm input, .messageForm textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 2px 0px;
+    background-color: #2e2e2e;
+    color: #ddd;
+    border: none;
+    border-bottom: 2px solid #666;
+    outline: none;
+}
+
+.messageForm textarea{
+    resize: none;
+    height: 220px;
+    display: block;
+}
+
+textarea::-webkit-scrollbar{
+    width: 5px;
+}
+
+textarea::-webkit-scrollbar-track{
+    background-color: #1e1e1e;
+    border-radius: 15px;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: dodgerblue;
+    border-radius: 15px;
+}
+
+.inputGroup label{
+    left: 0;
+    bottom: 4px;
+    color: #888;
+    font-size: 18px;
+    transition: 0.4s;
+    pointer-events: none;
+}
+
+.inputGroup:nth-child(4) label{
+    top:2px;
+}
+
+.inputGroup .input:focus ~ label, .inputGroup textarea:focus ~ label
+.inputGroup .input:valid ~ label, .inputGroup textarea:valid ~ label
+{
+    transform: translate(-30px);
+    font-size: 16px;
+}
+
+.inputGroup button{
+    padding: 8px 16px;
+    font-size: 18px;
+    background-color: dodgerblue;
+    color: #ddd;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
+    transition: 0.4s;
+}
+
+.inputGroup button:hover{
+    background-color: #2e2e2e;
+    color: dodgerblue;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+    border: 1px solid dodgerblue;
+}
